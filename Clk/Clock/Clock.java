@@ -36,12 +36,7 @@ public class Clock {
 					e.printStackTrace();
 				}
 			}
-		});
-		
-		
-		
-		
-		
+		});	
 	}
 
 	/**
@@ -106,15 +101,12 @@ public class Clock {
 		lblNewLabel.setBounds(10, 31, 264, 51);
 		frame.getContentPane().add(lblNewLabel);
 		
-	    lblNewLabel_1 = new JLabel("");
+	        lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setForeground(Color.PINK);
 		lblNewLabel_1.setFont(new Font("Russo One", Font.PLAIN, 24));
 		lblNewLabel_1.setBounds(10, 70, 285, 80);
 		frame.getContentPane().add(lblNewLabel_1);
-		
-		
-		
 		
 		frame.setUndecorated(true);
 		frame.setSize(300,150);
